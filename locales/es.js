@@ -30,7 +30,15 @@ const ES_TRANSLATIONS = {
     "project2-description": "Plataforma de red social completa y moderna con patrones de seguridad avanzada.",
 
     "project3-title": "Code Execution API",
-    "project3-description": "Aplicación web para la ejecución de código en tiempo real con integración de OpenAI para correccion de errores.",
+    "project3-description": "Aplicativo web para la ejecución de código en tiempo real con integración de OpenAI para correccion de errores.",
+
+    "project4-title": "System Coffee",
+    "project4-description": "Aplicativo web para la gestión de cafeterías, con autenticación completa, administración de reservas y menús, historial de ventas y auditoría mejorada, lo que optimiza la gestión.",
+
+    "project5-title": "Librabot",
+    "project5-description": "Aplicativo web para gestión de bibliotecas con autenticación por roles, un chatbot de IA para asistencia en tiempo real, y automatización de reportes.",
+
+
 
     "code": "Código",
     "view-credential": "Ver Credencial",

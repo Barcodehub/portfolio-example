@@ -30,6 +30,13 @@ const EN_TRANSLATIONS = {
   "project3-title": "Code Execution API",
   "project3-description": "Web application for real-time code execution with OpenAI integration for debugging.",
 
+"project4-title": "System Coffee",
+"project4-description": "Web application for managing coffee shops, with full authentication, reservation and menu management, sales history, and improved auditing to optimize operations.",
+
+"project5-title": "Librabot",
+"project5-description": "Web application for library management with role-based authentication, an AI chatbot for real-time assistance, and automated reporting.",
+
+
   "code": "Code",
   "view-credential": "View Credential",
   "about-title": "About Me",
