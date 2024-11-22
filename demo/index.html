@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="language-selector">
+    <button onclick="changeLanguage('es')" class="lang-btn" data-lang="es">
+      ES
+    </button>
+    <button onclick="changeLanguage('en')" class="lang-btn" data-lang="en">
+      ENG
+    </button>
+  </div>
+
+  <div class="container">
+    <!-- Header -->
+    <div class="header text-center">
+      <h1 data-i18n="name"></h1>
+      <p data-i18n="role"></p>
+      <div class="links">
+        <a href="https://github.com/Barcodehub"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://www.linkedin.com/in/brayanbarco"><i class="fas fa-user"></i> LinkedIn</a>
+      </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <div class="tab active-tab" onclick="showContent('projects')" data-i18n="projects-tab"></div>
+      <div class="tab" onclick="showContent('certificates')" data-i18n="certificates-tab"></div>
+      <div class="tab" onclick="showContent('about')" data-i18n="about-tab"></div>
+    </div>
+
+    <!-- Projects Content -->
+    <div id="projects" class="tab-content">
+
+
+      
+   <!-- PROJECT 2 -->
+      <div class="grid">
+        <div class="card">
+          <h2 data-i18n="project2-title"></h2>
+          <p data-i18n="project2-description"></p>
+          <div class="tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Express</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">Social Network</span>
+            <span class="tag">AWS</span>
+          </div>
+          <div class="link-group">
+            <a href="https://github.com/Barcodehub/ShipConnect" class="github-link">
+              <i class="fab fa-github"></i> <span data-i18n="code">Código</span>
+            </a>
+            <a href="" class="demo-link">
+              <i class="fas fa-external-link-alt"></i> Demo
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+
+        <!-- PROJECT 3 -->
+
+      <div class="grid">
+        <div class="card">
+          <h2 data-i18n="project3-title"></h2>
+          <p data-i18n="project3-description"></p>
+          <div class="tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Express</span>
+            <span class="tag">OpenAI</span>
+            <span class="tag">API</span>
+          </div>
+          <div class="link-group">
+            <a href="https://github.com/Barcodehub/entorno-programming-ia-node" class="github-link">
+              <i class="fab fa-github"></i> <span data-i18n="code">Código</span>
+            </a>
+            <a href="https://demo.code-execution-api.com" class="demo-link">
+              <i class="fas fa-external-link-alt"></i> Demo
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+
+         <!-- PROJECT 1 -->
+      <div class="grid">
+        <div class="card">
+          <h2 data-i18n="project1-title"></h2>
+          <p data-i18n="project1-description"></p>
+          <div class="tags">
+            <span class="tag">Node.js</span>
+            <span class="tag">Express</span>
+            <span class="tag">MongoDB</span>
+            <span class="tag">JWT</span>
+          </div>
+          <div class="link-group">
+            <a href="https://github.com/Barcodehub/Movie-Reservation-System">
+              <i class="fab fa-github"></i> <span data-i18n="code"></span>
+            </a>
+            <a href="">
+              <i class="fas fa-external-link-alt"></i> Demo
+            </a>
+          </div>
+        </div>
+      </div>
+
+
+      <!--PYTHON PROJECTS-->
+
+             
+               <div class="grid">
+                <div class="card">
+                  <h2 data-i18n="project4-title"></h2>
+                  <p data-i18n="project4-description"></p>
+                  <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Flask</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">Cafe Management</span>
+                  </div>
+                  <div class="link-group">
+                    <a href="https://github.com/Barcodehub/CoffeeFlask">
+                      <i class="fab fa-github"></i> <span data-i18n="code"></span>
+                    </a>
+                    <a href="">
+                      <i class="fas fa-external-link-alt"></i> Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+
+
+                           
+               <div class="grid">
+                <div class="card">
+                  <h2 data-i18n="project5-title"></h2>
+                  <p data-i18n="project5-description"></p>
+                  <div class="tags">
+                    <span class="tag">Python</span>
+                    <span class="tag">Flask</span>
+                    <span class="tag">MySQL</span>
+                    <span class="tag">ChatBot IA</span>
+                    <span class="tag">Excel Report</span>
+                  </div>
+                  <div class="link-group">
+                    <a href="https://github.com/Barcodehub/Librabot">
+                      <i class="fab fa-github"></i> <span data-i18n="code"></span>
+                    </a>
+                    <a href="">
+                      <i class="fas fa-external-link-alt"></i> Demo
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+    </div>
+
+    
+
+    <!-- Certificates Content -->
+   
+    <div id="certificates" class="tab-content" style="display: none;">
+
+      <div class="grid">
+        <div class="card">
+          <h2 data-i18n="cert2-title"></h2>
+          <p data-i18n="cert2-issuer"></p>
+          <a href="https://www.credly.com/badges/81e3d9c2-a669-4ced-88fa-cb4a77d8ff61/linked_in_profile">
+            <i class="fas fa-external-link-alt"></i> <span data-i18n="view-credential"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h2 data-i18n="cert3-title"></h2>
+          <p data-i18n="cert3-issuer"></p>
+          <a href="https://www.credly.com/badges/7951c777-4345-4062-b5d8-77b5a73008e8/linked_in_profile">
+            <i class="fas fa-external-link-alt"></i> <span data-i18n="view-credential"></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="grid">
+        <div class="card">
+          <h2 data-i18n="cert4-title"></h2>
+          <p data-i18n="cert4-issuer"></p>
+          <a href="https://www.credly.com/badges/9d94790c-81d6-47fd-8e12-21cd79383983/linked_in_profile">
+            <i class="fas fa-external-link-alt"></i> <span data-i18n="view-credential"></span>
+          </a>
+        </div>
+      </div>
+
+
+
+      
+        <div class="grid">
+          <div class="card">
+            <h2 data-i18n="cert1-title"></h2>
+            <p data-i18n="cert1-issuer"></p>
+            <a href="https://coursera.org/verify/professional-cert/RWU6BN5KRDGF">
+              <i class="fas fa-external-link-alt"></i> <span data-i18n="view-credential"></span>
+            </a>
+          </div>
+        </div>
+
+        
+      <div class="grid">
+        <div class="card">
+          <h2 data-i18n="cert5-title"></h2>
+          <p data-i18n="cert5-issuer"></p>
+          <a href="https://coursera.org/verify/professional-cert/95H7KNEMA5XJ">
+            <i class="fas fa-external-link-alt"></i> <span data-i18n="view-credential"></span>
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+
+
+
+
+    <!-- About Content -->
+    <div id="about" class="tab-content" style="display: none;">
+      <div class="card" style="display: flex; flex-direction: column; align-items: center;">
+        <h3 data-i18n="about-title"></h3>
+        <img src="img/photo.png" alt="Foto" style="width:200px;height:200px;border-radius:50%;">
+        <p data-i18n="about-description" style="text-align: center;"></p>
+        <h4 data-i18n="main-skills" style="text-align: center;"></h4>
+        <ul data-i18n="skills"></ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Load translation files first -->
+  <script src="locales/es.js"></script>
+  <script src="locales/en.js"></script>
+  
+  <!-- Load application scripts -->
+  <script src="js/i18n.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

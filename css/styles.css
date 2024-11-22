@@ -27,7 +27,7 @@ body {
     text-decoration: none;
   }
   .links a:hover {
-    color: black;
+    color: ;
   }
   .tabs {
     display: flex;
@@ -47,7 +47,7 @@ body {
     background-color: #cbd5e0;
   }
   .active-tab {
-    background-color: #2d3748;
+    background-color: #2770ee;
     color: white;
   }
   .card {
@@ -66,7 +66,7 @@ body {
   }
   .card p {
     margin-bottom: 10px;
-    color: #4a5568;
+    color: #4a6858;
   }
   .tags {
     margin-bottom: 10px;
@@ -87,7 +87,7 @@ body {
     color: #718096;
   }
   .link-group a:hover {
-    color: black;
+    color: rgb(0, 0, 0);
   }
 
 
@@ -100,7 +100,7 @@ body {
   .lang-btn {
     display: flex;
     align-items: center; /* Alinea verticalmente los elementos dentro del botón */
-    background-color: #000000; /* Color de fondo del botón */
+    background-color: #2772fd; /* Color de fondo del botón */
     border: none; /* Sin borde */
     color: white; /* Color del texto */
     padding: 10px 15px; /* Espaciado interior */

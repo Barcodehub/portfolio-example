@@ -1,56 +1,44 @@
+// Traducciones en Español
+
 const ES_TRANSLATIONS = {
-    "name": "Brayan Barco",
-    "role": "Desarrollador Backend especializado en APIs y Microservicios",
-    "projects-tab": "<i class='fas fa-code'></i> Proyectos",
+    "page-title": "Mi Portafolio",
+    "home-tab": "<i class='fas fa-user'></i> Inicio",
+    "projects-tab": "<i class='fas fa-code'></i>  Proyectos", 
     "certificates-tab": "<i class='fas fa-award'></i> Certificaciones",
+    "professional-profile": "Perfil Profesional",
+    "professional-description": "Desarrollador especializado en Cloud Computing, Backend y Seguridad. Con certificaciones en AWS, Google Cybersecurity y Meta Front-End Development. Experto en tecnologías Node.js, Python, MongoDB y servicios en la nube.",
+    "featured-projects": "Proyectos Destacados",
+    "shipconnect-description": "Plataforma de red social fullstack con Node.js y MongoDB. Características avanzadas de autenticación, mensajería en tiempo real y gestión de contenido.",
+    "code-execution-description": "Servicio backend para ejecución de código en múltiples lenguajes utilizando Judge0 API e integración con OpenAI.",
+    "systemcoffee-description": "Aplicación web fullstack para gestión de cafeterías con sistema de reservas, menú dinámico y roles de usuario.",
+    "library-chatbot-description": "Aplicación web de gestión de biblioteca con sistema de login, CRUD de libros y chatbot integrado con inteligencia artificial.",
+    "aws-foundations-description": "Conocimientos en VPC, EC2, EBS, IAM, Lambda, Elastic Beanstalk",
+    "aws-architecting-description": "Especialización en VPC Networking, Amazon RDS, EFS, CloudFormation",
+    "aws-developing-description": "Experiencia en S3, DynamoDB, Lightsail, Docker, Kubernetes, Route 53",
+    "google-cybersecurity-description": "Dominio de Python, Linux, SQL, SIEM, IDS, análisis y resolución de problemas",
+    "meta-frontend-description": "Desarrollo de diseños profesionales con Bootstrap y React",
+    "certificates": "Certificaciones",
+    "copyright": "© Brayan Alexander Barco. Todos los derechos reservados."
+};
 
-    
-    "cert1-title":"Google Cybersecurity",
-    "cert1-issuer":"Python, Linux, SQL, herramientas de gestión de eventos e información de seguridad (SIEM), sistemas de detección de intrusiones (IDS), comunicación, colaboración, análisis, resolución de problemas",
-
-    "cert2-title":"AWS Academy Cloud Foundations",
-    "cert2-issuer":"VPC, EC2, EBS, IAM, LAMBDA, ELASTIC BEANSTALK",
-
-    "cert3-title":"AWS Academy Cloud Architecting",
-    "cert3-issuer":"VPC NETWORKING, AMAZON DATABASE RDS, EFS, CloudFormation",
-
-    "cert4-title":"AWS Academy Cloud Developing",
-    "cert4-issuer":"S3, DYNAMODB, LIGHTSAIL, DOCKERS, KUBERNETES, ROUTE 53",
-
-    "cert5-title":"Meta Front-End Developer",
-    "cert5-issuer":"Habilidades para crear diseños de página profesionales utilizando herramientas estándar de la industria como Bootstrap y React ",
-
-    "about-tab": "<i class='fas fa-user'></i> Sobre Mí",
-
-
-    "project1-title": "Movie Reservation System",
-    "project1-description": "Backend completo para gestionar reservas de entradas de cine.",
-
-    "project2-title": "ShipConnect",
-    "project2-description": "Plataforma de red social completa y moderna con patrones de seguridad avanzada.",
-
-    "project3-title": "Code Execution API",
-    "project3-description": "Aplicativo web para la ejecución de código en tiempo real con integración de OpenAI para correccion de errores.",
-
-    "project4-title": "System Coffee",
-    "project4-description": "Aplicativo web para la gestión de cafeterías, con autenticación completa, administración de reservas y menús, historial de ventas y auditoría mejorada, lo que optimiza la gestión.",
-
-    "project5-title": "Librabot",
-    "project5-description": "Aplicativo web para gestión de bibliotecas con autenticación por roles, un chatbot de IA para asistencia en tiempo real, y automatización de reportes.",
-
-
-
-    "code": "Código",
-    "view-credential": "Ver Credencial",
-    "about-title": "Sobre Mí",
-    "about-description": "Desarrollador Backend con más de 2 años de experiencia en el desarrollo de Aplicaciones completas en la nube. Especializado en Node.js y Python, con un fuerte enfoque en arquitecturas escalables y mejores prácticas de desarrollo.",
-    "main-skills": "Habilidades Principales:",
-    "skills": [
-      "Desarrollo de APIs REST",
-      "Node.js & Express",
-      "Python & Django",
-      "Bases de datos SQL y NoSQL",
-      "Docker & Kubernetes",
-      "AWS & Cloud Computing"
-    ]
-  };
+// Traducciones en Inglés
+const EN_TRANSLATIONS = {
+    "page-title": "My Portfolio",
+    "home-tab": "<i class='fas fa-user'></i> Home",
+    "projects-tab": "<i class='fas fa-code'></i>  Projects", 
+    "certificates-tab": "<i class='fas fa-award'></i> Certificates",
+    "professional-profile": "Professional Profile",
+    "professional-description": "Developer specialized in Cloud Computing, Backend, and Security. With certifications in AWS, Google Cybersecurity, and Meta Front-End Development. Expert in Node.js, Python, MongoDB technologies, and cloud services.",
+    "featured-projects": "Featured Projects",
+    "shipconnect-description": "Fullstack social network platform with Node.js and MongoDB. Advanced authentication, real-time messaging, and content management features.",
+    "code-execution-description": "Backend service for code execution in multiple languages using Judge0 API and OpenAI integration.",
+    "systemcoffee-description": "Fullstack web application for cafe management with reservation system, dynamic menu, and user roles.",
+    "library-chatbot-description": "Web library management application with login system, book CRUD, and integrated AI chatbot.",
+    "aws-foundations-description": "Knowledge in VPC, EC2, EBS, IAM, Lambda, Elastic Beanstalk.",
+    "aws-architecting-description": "Specialization in VPC Networking, Amazon RDS, EFS, CloudFormation.",
+    "aws-developing-description": "Experience with S3, DynamoDB, Lightsail, Docker, Kubernetes, Route 53.",
+    "google-cybersecurity-description": "Proficiency in Python, Linux, SQL, SIEM, IDS, problem analysis, and resolution.",
+    "meta-frontend-description": "Development of professional designs using Bootstrap and React.",
+    "certificates": "Certificates",
+    "copyright": "© Brayan Alexander Barco. All rights reserved."
+};
