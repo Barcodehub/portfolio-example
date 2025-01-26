@@ -22,7 +22,8 @@ const ES_TRANSLATIONS = {
     "microservices-description": "Una API basada en microservicios diseñada para la autenticación segura de usuarios y la gestión eficiente de productos.",
     "movieapi-description": "Este sistema proporciona una API para gestionar las operaciones de las salas de cine, la gestión de películas y horarios de funciones, las reservas de asientos y un panel de administración.",
     "video-description": "Una aplicación para descargar videos y listas de reproducción de YouTube en varias calidades, incluida HD. Es compatible con múltiples plataformas como YouTube, TikTok y Facebook Watch, etc.",
-    "copyright": "© Brayan Alexander Barco. Todos los derechos reservados."
+    "copyright": "© Brayan Alexander Barco. Todos los derechos reservados.",
+    "code" : "codigo"
 };
 
 // Traducciones en Inglés
@@ -48,5 +49,6 @@ const EN_TRANSLATIONS = {
     "microservices-description": "A microservices-based API designed for secure user authentication and efficient product management.",
     "movieapi-description": "This system provides a API for handling movie theater operations, movie and showtime management, seat reservations, and an admin dashboard. ensuring smooth theater management.",
     "video-description": "A application for downloading YouTube videos and playlists in various qualities, including HD. It supports multiple platforms like YouTube, TikTok, and Facebook Watch, etc.",
-    "copyright": "© Brayan Alexander Barco. All rights reserved."
+    "copyright": "© Brayan Alexander Barco. All rights reserved.",
+    "code" : "code"
 };
